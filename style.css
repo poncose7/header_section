@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+
+
+.header-area{
+	background-color: #ddd;
+	min-height: 50px;
+}
+
+.header-area:after{
+	content:'';
+	display:block;
+	clear: both;
+	
+}
+
+.main{
+	width: 80%;
+	
+	margin:auto;
+
+}
+
+.header-area h1{
+	margin: 0;
+	font-size: 30px;
+	font-weight: 700;
+
+}
+
+.logo{
+	float: left;
+}
+
+.main-menu{
+	float: right;
+}
+
+.main-menu ul{
+	list-style: none;
+	
+	
+}
+
+.main-menu ul li{
+	display: inline;
+	padding-right:  30px;
+	
+}
+
+.main-menu ul li:last-child{
+
+	padding-right: 0;
+
+	
+}
+
+.main-menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+	padding: 16px;
+}
+
+.main-menu ul li :hover{
+	color: #fff;
+	background: #f62e2a;
+}
+
+.current{
+	background-color: #f62e2a;
+}
